@@ -104,6 +104,14 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 20%;
+}
+
+footer {
+    background-color: #333;
+    color: wheat;
+    text-align: center;
+    padding: 10px 0 10px 0;
 }
 
 @media screen and (max-width: 768px) {

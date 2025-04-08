@@ -40,4 +40,41 @@ nav ul li a:hover {
     padding: 10px 0 10px 0;
 }
 
+#carrossel{
+    background-color: gray;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    text-align: center;
+    color: white;
+}
+
+#div-imgs {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.tintas-img {
+    margin-left: 50px;
+    width: 50%;
+    max-width: 200px;
+    border-radius: 25px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.seta{
+    margin-top: 55px;
+    cursor: pointer;
+}   
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#setaesquerda, #tinta3{
+    display: none;
+}
 
